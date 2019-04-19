@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-  <link rel="stylesheet" href="style.css" type="text/css" media="all">
-</head>
-<body>
-  <script src="bundle.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="hello">
+      <h1 v-bind:style = "styles">on dance</h1>
+      <h2>{{ message }}</h2>
+      <p>{{ paragraph }}</p>
+      <h2 v-if="show">{{show}}</h2>
+      <h2 v-show="titre">{{titre}}</h2>
+      <ul>
+        <li v-for="fruit in fruits">{{fruit}}</li>
+      </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+    <script src="bundle.js"></script>
+  </body>
 </html>
