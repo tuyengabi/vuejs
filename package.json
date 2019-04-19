@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuyengabi/webpack.git"
+    "url": "git+https://github.com/tuyengabi/vuejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tuyengabi/webpack/issues"
+    "url": "https://github.com/tuyengabi/vuejs/issues"
   },
-  "homepage": "https://github.com/tuyengabi/webpack#readme",
+  "homepage": "https://github.com/tuyengabi/vuejs#readme",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "css-loader": "^2.1.1",
@@ -25,7 +25,10 @@
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.0"
+    "vuejs": "^4.30.0",
+    "vuejs-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "webpack": "^4.30.0"
   }
 }
