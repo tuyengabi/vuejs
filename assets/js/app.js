@@ -1,21 +1,16 @@
 require("../stylesheets/main.scss");
 
-new Vue ({
-  el: ".hello",
-  data: {
-    message: "hello world",
-    paragraph: "toto tutu",
-    show: true,
-    titre: false,
-    fruits : ['pomme','ananas','banane'],
-    styles: {
-      'font-size': "6rem",
-      color: "blue"
+
+
+Vue.component('btn-attack', {
+  data: function() {
+    return {
+      count: 0
     }
   },
-  methods: {
-    addMessage: function() {
+  template: '<div><p>{{count}}</p><button v-on:click="count++">ATTACK</button></div>'
+})
 
-    }
-  }
+new Vue ({
+  el:".augment",
 })
